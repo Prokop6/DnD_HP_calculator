@@ -6,9 +6,17 @@
     <title>Statystyki HP</title>
     <link rel="stylesheet" href="src/css/main.css">
     <script src="src/js/index.js" defer></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body>
-    <div id="inputBox"></div>
-    <div id="plot"></div>
+    <div class="interface">
+        <div id="inputDiv" class="input_field">
+            <button id="ButGenerate" type="button">Generate!</button>
+        </div>
+        <div id="plot" class="plot"></div>
+        <div id="resultDiv" class="source_data">
+            <p id="resultPara" class="result_para"></p>
+        </div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,35 @@
+.interface {
+    margin: 20mm;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+} 
+.interface div{
+    margin: 0;
+}
+.input_field {
+    width: 20%;
+    height: 200px;
+    border: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.source_data {
+    display: flex;
+    flex-wrap: wrap;
+    border: inherit;
+    padding: 0;
+}
+.source_data .result_para {
+    word-wrap: anywhere;
+    padding: 5px;
+    font-size: 10px;
+    margin: 0;
+}
+.plot {
+    width: auto;
+    width: 100%;
+    height: 450px;
+    border: inherit;
+}
